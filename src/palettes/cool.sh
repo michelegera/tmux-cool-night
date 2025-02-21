@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
 # Coolnight Palette
-declare -A PALLETE=(
+declare -A PALETTE=(
   [none]="NONE"
   [bg]="#011423"
   [bg_dark]="#011423"
@@ -35,4 +35,4 @@ declare -A PALLETE=(
   [white]="#ffffff"
 )
 
-export PALLETE
+export PALETTE

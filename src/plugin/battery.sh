@@ -144,8 +144,8 @@ else
 
     # load palette
     theme_variation=$(get_tmux_option "@theme_variation" "night")
-    # shellcheck source=src/palletes/night.sh
-    . "$ROOT_DIR/../palletes/$theme_variation.sh"
+    # shellcheck source=src/palettes/night.sh
+    . "$ROOT_DIR/../palettes/$theme_variation.sh"
 
     if [ "$battery_number" -lt "$(get_tmux_option '@theme_plugin_battery_red_threshold' '10')" ]; then
         plugin_battery_accent_color=$(get_tmux_option "@theme_plugin_battery_red_accent_color" "red")
@@ -159,8 +159,8 @@ else
     fi
 
     template=$1
-    result="${template//_ACCENT_COLOR_ICON_/${PALLETE[$plugin_battery_accent_color_icon]}}"
-    result="${result//_ACCENT_COLOR_/${PALLETE[$plugin_battery_accent_color]}}"
+    result="${template//_ACCENT_COLOR_ICON_/${PALETTE[$plugin_battery_accent_color_icon]}}"
+    result="${result//_ACCENT_COLOR_/${PALETTE[$plugin_battery_accent_color]}}"
     result="${result//_ICON_/$plugin_battery_icon}"
     result="${result//_BATTERY_/$battery_percentage}"
 
