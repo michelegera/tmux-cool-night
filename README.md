@@ -1,7 +1,7 @@
 <div align="center">
-  <h1>Tokyo Night Tmux Theme</h1>
+  <h1>Cool Night Tmux Theme</h1>
   
-  <h4>A Tokyo Night tmux theme directly inspired from Tokyo Night vim theme</h4>
+  <h4>A Cool Night tmux theme directly inspired from Cool Night vim theme</h4>
     
   ---
     
@@ -34,7 +34,7 @@
 Add plugin to the list of `TPM` plugins in `.tmux.conf`:
 
 ```
-set -g @plugin 'fabioluciano/tmux-tokyo-night'
+set -g @plugin 'michelegera/tmux-cool-night'
 ```
 
 Hit <kbd>prefix</kbd> + <kbd>I</kbd> to fetch the plugin and source it. You can now use the plugin.
@@ -122,9 +122,9 @@ set -g @plugin 'tmux-plugins/tmux-pain-control'
 set -g @plugin 'tmux-plugins/tmux-sensible'
 set -g @plugin 'tmux-plugins/tmux-logging'
 
-set -g @plugin 'fabioluciano/tmux-tokyo-night'
+set -g @plugin 'michelegera/tmux-cool-night'
 
-### Tokyo Night Theme configuration
+### Cool Night Theme configuration
 set -g @theme_left_separator ''
 set -g @theme_right_separator ''
 set -g @theme_plugins 'datetime,weather,playerctl,yay'
