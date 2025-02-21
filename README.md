@@ -6,7 +6,6 @@
   ---
     
   **[<kbd> <br> Features <br> </kbd>][features]**
-  **[<kbd> <br> Screenshots <br> </kbd>][screenshots]**
   **[<kbd> <br> Install <br> </kbd>][install]**
   **[<kbd> <br> Available Configurations <br> </kbd>][available-configurations]**
   **[<kbd> <br> Plugins <br> </kbd>][plugins]**
@@ -141,8 +140,6 @@ Enable transparency with default separators:
 set -g @theme_transparent_status_bar 'true'
 ```
 
-![Screenshot 2024-09-07 at 12 41 12](https://github.com/user-attachments/assets/56287ccb-9be9-4aa5-a2ab-ec48d2b2d08a)
-
 ####
 
 Can also use custom separators:
@@ -157,10 +154,7 @@ set -g @theme_transparent_right_separator_inverse ''
 
 ```
 
-![Screenshot 2024-09-07 at 12 39 35](https://github.com/user-attachments/assets/a33417b1-34e0-4212-952e-7ef1e240e943)
-
 [features]: #features
-[screenshots]: #screenshots
 [install]: #install
 [available-configurations]: #available-configurations
 [plugins]: #plugins
