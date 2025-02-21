@@ -29,14 +29,6 @@
 - **yay** - Show yay;
 - **battery** - Show battery;
 
-## Screenshots
-
-### Tokyo Night - Default Variation
-
-| Inactive                                                                                                             | Active                                                                                                                      |
-| -------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------- |
-| ![Tokyo Night tmux theme - Default Variation](./assets/tokyo-night.png "Tokyo Night tmux theme - Default Variation") | ![Tokyo Night tmux theme - Default Variation](./assets/tokyo-night-active.png "Tokyo Night tmux theme - Default Variation") |
-
 ## Install
 
 Add plugin to the list of `TPM` plugins in `.tmux.conf`:
@@ -49,17 +41,16 @@ Hit <kbd>prefix</kbd> + <kbd>I</kbd> to fetch the plugin and source it. You can 
 
 ## Available Configurations
 
-| Configuration                       | Description                               | Avaliable Options                                                       | Default            |
-| ----------------------------------- | ----------------------------------------- | ----------------------------------------------------------------------- | ------------------ |
-| `@theme_variation`                  | The tokyo night theme variation to be use | `night`, `storm`, `moon`                                                | `night`            |
-| `@theme_active_pane_border_style`   |                                           |                                                                         | `#737aa2`          |
-| `@theme_inactive_pane_border_style` |                                           |                                                                         | `#292e42`          |
-| `@theme_left_separator`             |                                           |                                                                         | ``                |
-| `@theme_right_separator`            |                                           |                                                                         | ``                |
-| `@theme_window_with_activity_style` |                                           |                                                                         | `italics`          |
-| `@theme_status_bell_style`          |                                           |                                                                         | `bold`             |
-| `@theme_plugins`                    |                                           | `datetime`, `weather`, `playerctl`, `spt`, `homebrew`, `yay`, `battery` | `datetime,weather` |
-| `@theme_disable_plugins`            | Disables plugins                          | `1`, `0`                                                                | `0`                |
+| Configuration                       | Description      | Avaliable Options                                                       | Default            |
+| ----------------------------------- | ---------------- | ----------------------------------------------------------------------- | ------------------ |
+| `@theme_active_pane_border_style`   |                  |                                                                         | `#737aa2`          |
+| `@theme_inactive_pane_border_style` |                  |                                                                         | `#292e42`          |
+| `@theme_left_separator`             |                  |                                                                         | ``                |
+| `@theme_right_separator`            |                  |                                                                         | ``                |
+| `@theme_window_with_activity_style` |                  |                                                                         | `italics`          |
+| `@theme_status_bell_style`          |                  |                                                                         | `bold`             |
+| `@theme_plugins`                    |                  | `datetime`, `weather`, `playerctl`, `spt`, `homebrew`, `yay`, `battery` | `datetime,weather` |
+| `@theme_disable_plugins`            | Disables plugins | `1`, `0`                                                                | `0`                |
 
 ## Plugins
 
@@ -134,7 +125,6 @@ set -g @plugin 'tmux-plugins/tmux-logging'
 set -g @plugin 'fabioluciano/tmux-tokyo-night'
 
 ### Tokyo Night Theme configuration
-set -g @theme_variation 'moon'
 set -g @theme_left_separator ''
 set -g @theme_right_separator ''
 set -g @theme_plugins 'datetime,weather,playerctl,yay'
